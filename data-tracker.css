@@ -1,0 +1,219 @@
+body {
+  background: #0b172a;
+  color: #f0f0f0;
+  font-family: "Segoe UI", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  padding-top: 50px;
+  margin: 0;
+}
+
+.container {
+  background: #14233b;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 400px;
+  text-align: center;
+}
+
+h1 {
+  color: #00bfff;
+  margin-bottom: 15px;
+}
+
+.input-section {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+}
+
+button {
+  background: linear-gradient(90deg, #00bfff, #0077ff);
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+#backBtn {
+  background: #ff3366;
+  margin-bottom: 15px;
+}
+
+#clearBtn {
+  background: #ff4c4c;
+  margin-top: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  border-bottom: 1px solid #333;
+  padding: 8px;
+}
+
+th {
+  color: #00bfff;
+}
+
+tr:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+/* === Base Layout === */
+body {
+  background: #0b172a;
+  color: #f0f0f0;
+  font-family: "Segoe UI", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  padding-top: 50px;
+  margin: 0;
+}
+
+/* === Container Box === */
+.container {
+  background: #14233b;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  width: 400px;
+  max-width: 90%;
+  text-align: center;
+  transition: 0.3s;
+}
+
+h1 {
+  color: #00bfff;
+  margin-bottom: 20px;
+  font-size: 1.3em;
+}
+
+/* === Buttons === */
+button {
+  background: linear-gradient(90deg, #00bfff, #0077ff);
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+#backBtn {
+  background: #ff3366;
+  margin-bottom: 15px;
+}
+
+#clearBtn {
+  background: #ff4c4c;
+  margin-top: 15px;
+  width: 100%;
+}
+
+/* === Input Section === */
+.input-section {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  background: #0e1a30;
+  color: #fff;
+  font-size: 1em;
+}
+
+/* === Table === */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 0.95em;
+}
+
+th,
+td {
+  border-bottom: 1px solid #2a3b54;
+  padding: 8px;
+}
+
+th {
+  color: #00bfff;
+  background: #0f1e33;
+}
+
+tr:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.deleteBtn {
+  background: #ff3366;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  font-size: 0.9em;
+}
+
+.deleteBtn:hover {
+  opacity: 0.8;
+}
+
+/* === Responsive Design === */
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .input-section {
+    flex-direction: column;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  table {
+    font-size: 0.85em;
+  }
+
+  button {
+    width: 100%;
+  }
+}

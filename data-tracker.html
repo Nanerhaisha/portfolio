@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Data Tracker</title>
+    <link rel="stylesheet" href="data-tracker.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button id="backBtn">← Back</button>
+      <h1>📊 Simple Data Tracker</h1>
+
+      <div class="input-section">
+        <input type="text" id="labelInput" placeholder="Label (e.g. Sales)" />
+        <input type="number" id="valueInput" placeholder="Value (e.g. 1200)" />
+        <button id="addBtn">Add</button>
+      </div>
+
+      <table id="dataTable">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Label</th>
+            <th>Value</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+
+      <button id="clearBtn">Clear All</button>
+    </div>
+
+    <script src="data-tracker.js"></script>
+  </body>
+</html>
